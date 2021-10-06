@@ -32,12 +32,13 @@ nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 0;
+  border-radius: 9px;
 }
 nav ul li a{
   color: white;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 3px;
+  border-radius: 9px;
   text-transform: uppercase;
 }
 a.active,a:hover{
@@ -171,19 +172,28 @@ text-transform: uppercase;
 }
 
 #social{
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   padding: 10px 10px 10px 10px;
+
+}
+#social:hover{  
+  transform: scale(1.3);
 }
 #socialdiv{
-  align-self: center;
+  
+  margin: auto;
+  width :70%;
+
  }
 
  #contact{
-   align-self: center;
-   margin-left: 36%;
-   padding-top: 150px;
+   margin: auto;
+   margin-left:27%;
+   padding-top: 100px;
  }
+
+ /*footer */
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -295,6 +305,8 @@ footer .bottom a{
 }
 footer a{
   transition: all 0.3s;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
 }
 footer a:hover{
   color: #eb2f06;
@@ -332,3 +344,4 @@ footer a:hover{
   width: 60%;
   margin-left: 23%;
 }
+
