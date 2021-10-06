@@ -255,7 +255,6 @@ padding-bottom: 16px;
   margin-bottom: 50px;
   background:#FF0000;
   color:#fff;
-  text-transform: none;
   font-size: 25px;
   width:100%;
 }
@@ -278,7 +277,7 @@ padding-bottom: 16px;
    border-radius:35%;
  }
 
- #contact{
+#contact{
    margin: auto;
    margin-left:27%;
    padding-top: 100px;
