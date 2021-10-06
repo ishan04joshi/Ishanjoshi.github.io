@@ -7,7 +7,7 @@
 }
 body{
   font-family: montserrat;
-  background: #98B4D4;
+  background: #FFFFE0;
 }
 
 
@@ -168,14 +168,14 @@ padding-bottom: 16px;
 #cnt1{
   align-self: left;
   padding-left:2px;
-  padding-right: 15px;
+  padding-right: 25px;
   width: 45%;
   color: #191970;
 }
 #cnt2{
   align-self: right;
   padding-right:2px;
-  padding-left: 20px;
+  padding-left: 45px;
   width: 45%;
 }
 #intro{
