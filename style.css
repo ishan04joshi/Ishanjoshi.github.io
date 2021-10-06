@@ -425,3 +425,18 @@ footer a:hover{
   position:relative;
   margin-top:100%;
 }
+@media (max-width:990px){
+  #cnt2{
+    font-size: 10px;
+    margin-right: 50%;
+    margin-bottom: 50px;
+}
+}
+@media (max-width:1500px){
+  #prj2{
+    font-size: 15px;
+    margin-right: 50%;
+    margin-bottom: 50px;
+
+  }
+}
