@@ -120,7 +120,7 @@ a.active,a:hover{
 
 @media (max-width: 500px){
   .cont{
-  background-color : #282D3C;
+  background-color : #000000;
   color: white;
   height: 100vh;
   margin: 0 0 0 0;
@@ -150,6 +150,10 @@ a.active,a:hover{
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px;
   height:90vh;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: Row;
  
 }
 
@@ -157,19 +161,64 @@ a.active,a:hover{
 text-align: center;
 font-family: Lucida Handwriting, "cursive";
 text-transform: uppercase;
+padding-top: 10px;
+padding-bottom: 16px;
 
 }
 
 
 .img{
-  padding-left:15%;
-  margin-right: 50%;
+  padding-left:10%;
+  border-radius:40px;
+  
 }
 #cnt1{
-  align-self: right;
-  margin-left:50%;
-  padding-right:2px;
+  align-self: left;
+  padding-left:2px;
+  padding-right: 5px;
+  width: 45%;
+  color: #191970;
 }
+#cnt2{
+  align-self: right;
+  padding-right:2px;
+  padding-left: 10px;
+  width: 45%;
+}
+#intro{
+  padding: 20px 20px 20px 20px;
+}
+#intro1{
+  font-family:Comic Sans MS, Comic Sans, cursive;
+}
+#cnt2 a{
+  color: #FF0000;
+  font-size: 17px;
+  padding: 10px 35px;
+  border-radius: 9px;
+  text-transform: uppercase;
+}
+#cont2 a:hover{
+  background-color: #1b9bff;
+  transition: .3s;
+}
+.skills{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: Row;
+  
+}
+#flex{
+  align-self: center;
+  width: 20%;
+  padding: 15px 15px 15px 15px;
+}
+.flex img{
+  width: 120px;
+}
+
 
 #social{
   height: 100px;
@@ -177,7 +226,7 @@ text-transform: uppercase;
   padding: 10px 10px 10px 10px;
 }
 #social:hover{  
-  transform: scale(1.3);
+  transform: scale(1.25);
   transition: 0.5s;
 }
 #socialdiv{
@@ -194,7 +243,7 @@ text-transform: uppercase;
    padding-top: 100px;
  }
 
- /*footer */
+ /*footer Contact us section*/
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -346,4 +395,7 @@ footer a:hover{
   margin-left: 23%;
 }
 
-
+.footer1{
+  position:relative;
+  margin-top:100%;
+}
