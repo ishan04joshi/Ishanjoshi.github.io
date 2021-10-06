@@ -175,16 +175,17 @@ text-transform: uppercase;
   height: 100px;
   width: 100px;
   padding: 10px 10px 10px 10px;
-
 }
 #social:hover{  
   transform: scale(1.3);
+  transition: 0.5s;
 }
 #socialdiv{
-  
   margin: auto;
   width :70%;
-
+ }
+#contact img{
+   border-radius:35%;
  }
 
  #contact{
@@ -344,4 +345,5 @@ footer a:hover{
   width: 60%;
   margin-left: 23%;
 }
+
 
