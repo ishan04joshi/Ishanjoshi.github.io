@@ -202,21 +202,27 @@ padding-bottom: 16px;
   background-color: #1b9bff;
   transition: .3s;
 }
-.skills{
-  display: inline-flex;
+#skills{
+  display:flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: Row;
-  
-}
-#flex{
   align-self: center;
-  width: 20%;
-  padding: 15px 15px 15px 15px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.flex{
+  width: 23%;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
 }
 .flex img{
+  height:150px;
   width: 120px;
+}
+.flex img:hover{
+  transform: scale(1.15);
 }
 
 
