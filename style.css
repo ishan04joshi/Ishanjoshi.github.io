@@ -157,6 +157,7 @@ text-transform: uppercase;
 padding-top: 110px;
 padding-bottom: 16px;
 
+
 }
 
 
@@ -271,16 +272,21 @@ padding-bottom: 16px;
 }
 #socialdiv{
   margin: auto;
-  width :70%;
+  padding: auto;
  }
 #contact img{
    border-radius:35%;
  }
 
 #contact{
-   margin: auto;
-   margin-left:27%;
-   padding-top: 100px;
+  max-width: 40vw;
+  width: 100%;
+  margin: auto;
+  padding: auto;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
  }
 
  /*footer Contact us section */
@@ -408,6 +414,11 @@ footer a:hover{
   }
 }
 @media (max-width:950px){
+  #contact{
+    padding-top: 10px;
+    max-width: 80vw;
+    width: 100%;
+  }
   footer .content .box{
     width: 50%;
   }
